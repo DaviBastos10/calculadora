@@ -18,7 +18,7 @@ public class App {
 
           operacao = entrada.nextInt();
 
-          if (operacao != 0){
+          if (operacao < 5){
                        
             
           System.out.println("Digite o primeiro número da operação:");
@@ -43,7 +43,13 @@ public class App {
           if (operacao == 4){
             System.out.println("O resultado de sua operação é:"+ (primeiroN * segundoN));
         }
+
+
           
+      }
+
+      else{
+        System.out.println("O número digitado não representa nenhuma operação, tente novamente! ;)");
       }
     } while (operacao != 0); 
                      
